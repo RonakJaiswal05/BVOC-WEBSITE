@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admission Form</title>
+<link rel="stylesheet" href="sub css/form.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Admission Form</h1>
+        <form action="submit_form.php" method="POST" id="admission-form">
+            <div class="form-group">
+                <label for="first_name">First Name:</label>
+                <input type="text" name="first_name" id="first_name" required>
+            </div>
+            <div class="form-group">
+                <label for="last_name">Last Name:</label>
+                <input type="text" name="last_name" id="last_name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label>
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+                <small>Format: XXX-XXX-XXXX</small>
+            </div>
+            <div class="form-group">
+                <label for="program">cources of Interest:</label>
+                <select name="program" id="program" required>
+                    <option value="">Select a Program</option>
+                <option value="program1">Artificial Intelligencence and Data Science. (AIDS)</option>
+                    <option value="program2">Data Anylysis (DA)</option>
+                    <option value="program3">Animation and Graphic Design (AGD)</option>
+                    <option value="programs">Softare Development (SD)</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="program">Academic History:</label>
+                <select name="program" id="program" required>
+                  <option value="">Select Qualification</option>
+                  <option value="program1">12th pass </option>
+                  <option value="program2">similar qulification </option>
+                  <textarea name="academic_history" id="academic_history" rows="5" required></textarea>
+              </select>
+            </div>
+            <div class="form-group">
+                <label for="agree">Agree to terms and conditions:</label>
+                <input type="checkbox" name="agree" id="agree" required>
+                <a href="terms_and_conditions.html">Read terms and conditions</a>
+            </div>
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>

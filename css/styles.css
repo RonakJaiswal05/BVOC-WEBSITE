@@ -1,0 +1,292 @@
+/* Navbar Logo  */
+.navbar-brand{
+    font-family: "PT Serif", serif;
+    font-size: 4rem;
+    font-weight: 900;
+    padding-top: 3px;
+}
+
+/* To Remove the extra part  */
+body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+/* Main Page image */
+.main{
+    z-index: -999;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+/* Header on the main page  */
+.bvoc{
+    color: white;
+    font-family: "PT Serif", serif;
+    font-size: 3.5rem;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+/* Section 1 The main Page  */
+#section-1{
+    color: white;
+    padding-bottom: 3.8%;
+}
+
+/* Apply Now Button  */
+.download-btn{
+    margin-left: 100px;
+}
+
+/* Navbar Margin  */
+.navbar{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+/* Text on the main PAge  */
+.text{
+    margin-right: 390px;
+    margin-left: 100px;
+    color: white;
+}
+
+/* Section 2 OF the site  */
+#info{
+    margin-top: 10.3%;
+    padding-top: 3%;
+    background-color: #ECE9E5;
+    padding-bottom: 3%;
+}
+
+/* !st div of the info section  */
+.info-l{
+    margin-left: 100px;
+    background-color: #BDA58A;
+    padding-top: 15px;
+}
+
+/* 2nd div of the info section  */
+.info-m{
+    margin-left: 50px;
+    background-color: white;
+    padding-top: 15px;
+}
+
+
+/* 3rd div of the info section  */
+.info-r{
+    margin-left: 50px;
+    background-color:  #193F64;
+    padding: 15px;
+}
+
+/* Text Color on Read More  */
+.read{
+    color: white;
+    padding-bottom: 5px;
+    
+}
+
+/* Text Color on the info section  */
+.info{
+    color: white;
+    margin-top: 20%;
+}
+
+/* 3rd section of the site  */
+#Branches{
+    padding: 50px 1;
+    background-color: #ECE9E5;
+    color: #193F64;
+}
+
+/* 1st div of Branches Section  */
+.aids{
+    color: #e5c063;   
+    
+}
+/* Second div of branches section  */
+.sd{
+    color: #e5c063;
+    margin-left: 150px;
+}
+
+/* 3rd Div of branches section  */
+.agd{
+    color: #e5c063;
+}
+
+/* 4th div of the branches section  */
+.da{
+    
+    margin-left: 150px;
+}
+.row-2{
+    padding-top: 5%;
+}
+/* Image Padding  */
+
+/* read Edit oN the Section  */
+.readmore{
+    color: #BDA58A;
+    margin-bottom: 10px;
+}
+.logo{
+    width: 20%;
+    height: auto;
+}
+.nav-link:hover{
+    text-decoration: underline;
+}
+.sd-img{
+    width: 100%;
+}
+.aids-img{
+    width: 100%;
+}
+.agd-img{
+    width: 100% ;
+}
+.da-img{
+    width: 100%;
+}
+.c-text{
+    padding-top: 10px;
+    font-size: 2rem;
+    color: #193F64;
+    font-family: "Merriweather", serif;
+    
+}
+.fb{
+    font-size: 3rem;
+    font-family: "PT Serif", serif;
+    padding-left: 100px;
+}
+.b-row{
+    padding-left: 200px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+.fp{
+    padding-left: 100px;
+font-size: 1.5rem;
+}
+.course-text{
+    color: #BDA58A;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.info-h{
+    font-family: "Merriweather", serif;
+    font-size: 2em;
+}
+.info-t{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+
+}
+.d-block{
+    width: 100%;
+}
+
+video{
+    width: 75%;
+    padding-left: 275px;
+}
+#video{
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+.v-text{
+    padding-left: 100px;
+    font-size: 3rem;
+    font-family: "PT Serif", serif;
+    padding-top: 1%;
+}
+.vp-text{
+    padding-left: 100px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    color: #BDA58A;
+}
+
+/* testimonial Section  */
+
+#testimonial{
+    padding-top: 5%;
+    background-color: #ECE9E5;
+    padding-bottom: 5%;
+}
+.t-head{
+    font-size: 3rem;
+    font-family: "PT Serif", serif;
+    text-align: center;
+}
+.t-sub{
+    font-size: 1.2rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+
+}
+.row-t{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+}
+.t-text{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.2rem;
+
+}
+.student{
+    border-radius: 50%;
+    width: 15%;
+}
+.t-name{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1rem;
+}
+.t-col{
+    margin-left: 100px;
+}
+.review{
+    padding-top:15px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+#footer{
+    padding-top: 5%;
+    padding-left: 200px;
+    background-color: #193F64;
+    padding-bottom: 3%;
+}
+.col-2{
+    margin-left: 100px;
+}
+.footer-text{
+    color: #fff;
+}
+
+/* copyright section  */
+
+#copyright{
+    background-color: #BDA58A;
+}
+.cr{
+    text-align: center;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    color: #193F64;
+}
+.logo{
+    width: 10%;
+    mix-blend-mode: ;
+}
